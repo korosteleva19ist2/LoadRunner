@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\VuGen\Scripts\UC5_ReservViewDeleteAdd
--ID:\Micro Focus\LoadRunner\include
--ed:\vugen\scripts\uc5_reservviewdeleteadd\\logfile.log
-d:\vugen\scripts\uc5_reservviewdeleteadd\\combined_UC5_ReservViewDeleteAdd.c
-d:\vugen\scripts\uc5_reservviewdeleteadd\\pre_cci.c

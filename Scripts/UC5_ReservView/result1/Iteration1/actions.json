@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1699633153899
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1699633154075
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t4.inf",
+                "time": 1699633154275
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "StartWebTours",
+                "rawStartTime": 1699633153600,
+                "rawEndTime": 1699633153905,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11566591262817383
+            },
+            {
+                "transactionName": "LogIn",
+                "rawStartTime": 1699633153920,
+                "rawEndTime": 1699633154089,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007105827331542969
+            },
+            {
+                "transactionName": "ViewAllTicket",
+                "rawStartTime": 1699633154105,
+                "rawEndTime": 1699633154290,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005631685256958008
+            },
+            {
+                "transactionName": "UC5_ReservViewDeleteAdd",
+                "rawStartTime": 1699633153584,
+                "rawEndTime": 1699633154306,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1284034252166748
+            }
+        ]
+    }
+]
