@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\VuGen\Scripts\UC1_ReservAddView
+-ID:\VuGen\Scripts\UC1_ReservAdd
 -ID:\Micro Focus\LoadRunner\include
--ed:\vugen\scripts\uc1_reservaddview\\logfile.log
-d:\vugen\scripts\uc1_reservaddview\\combined_UC1_ReservAddView.c
-d:\vugen\scripts\uc1_reservaddview\\pre_cci.c
+-ed:\vugen\scripts\uc1_reservadd\\logfile.log
+d:\vugen\scripts\uc1_reservadd\\combined_UC1_ReservAdd.c
+d:\vugen\scripts\uc1_reservadd\\pre_cci.c

@@ -64,7 +64,7 @@ web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t4.inf", 
+		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
 	

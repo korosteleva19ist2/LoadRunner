@@ -239,7 +239,7 @@ lr_end_transaction("LogIn", LR_AUTO);
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t14.inf", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		LAST);
 

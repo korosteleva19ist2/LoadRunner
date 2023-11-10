@@ -234,16 +234,11 @@ web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 	                   //"search=body",
 	                   LAST);	
 
-	
-	randNumber = rand()%4 + 1;  
-	lr_output_message("Random Number is %d", randNumber); 	
-	lr_save_int(randNumber,"numPassengerRand");
-
-	
+		
 	web_reg_find("Text=Find Flight",LAST);
 	web_reg_find("Text=Flight departing from <B>{depart_City}</B> to <B>{arrive_City}</B> on <B>{departDate}</B>",LAST);
-	
-	web_submit_data("reservations.pl", 
+		
+	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -268,11 +263,9 @@ web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 		LAST);
 
 
-
 	lr_save_string(lr_paramarr_random("outboundflighting"),"outboundFlight");
 	
-	
-	//проверка открытия нужной страницы
+		//проверка открытия нужной страницы
 	web_reg_find("Text=Payment Details",LAST);
 	
 	web_submit_data("reservations.pl_2",
@@ -317,7 +310,8 @@ web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 		"RB=\.",
 		LAST);
 
-
+	randNumber = rand()%4 + 1;
+	lr_save_int(randNumber,"numPassengerRand");
 
 	//проверка открытия нужной страницы
 	web_reg_find("Text=Thank you for booking through Web Tours",LAST);
@@ -482,9 +476,10 @@ web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t9.inf", 
+		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		LAST);
+
 
 	lr_end_transaction("LogOut",LR_AUTO);
 	lr_end_transaction("UC1_ReservAdd", LR_AUTO);
