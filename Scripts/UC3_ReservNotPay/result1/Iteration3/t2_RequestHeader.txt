@@ -1,0 +1,15 @@
+GET /WebTours/ HTTP/1.1
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: none
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+

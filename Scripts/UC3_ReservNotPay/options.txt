@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\VuGen\Scripts\UC3_ReservNotPay
+-ID:\Micro Focus\LoadRunner\include
+-ed:\vugen\scripts\uc3_reservnotpay\\logfile.log
+d:\vugen\scripts\uc3_reservnotpay\\combined_UC3_ReservNotPay.c
+d:\vugen\scripts\uc3_reservnotpay\\pre_cci.c
