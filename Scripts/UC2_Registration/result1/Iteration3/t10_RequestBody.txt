@@ -1,4 +1,0 @@
-"firstName=Pavel&lastName=Petrov&address1=Pilovaya&address2=Moskow&pass1=Pavel+Petrov&pass2=Nan"
-"a+Artamonova&creditCard=999999999&expDate=123&oldCCOption=&numPassengers=2&seatType=Business&s"
-"eatPref=Aisle&outboundFlight=020%3B491%3B11%2F11%2F2023&advanceDiscount=0&returnFlight=&JSForm"
-"Submit=off&buyFlights.x=64&buyFlights.y=9&.cgifields=saveCC"

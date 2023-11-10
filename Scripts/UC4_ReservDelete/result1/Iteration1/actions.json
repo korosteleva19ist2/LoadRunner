@@ -6,81 +6,75 @@
                 "stepId": "STEP1",
                 "stepName": "Url: WebTours",
                 "infFile": "t2.inf",
-                "time": 1699632946837
+                "time": 1699648869912
             },
             {
                 "stepId": "STEP2",
-                "stepName": "Custom Request: json",
+                "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1699632947123
+                "time": 1699648870118
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Submit Data: login.pl",
+                "stepName": "Url: Itinerary Button",
                 "infFile": "t4.inf",
-                "time": 1699632947444
+                "time": 1699648870353
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: Itinerary Button",
+                "stepName": "Submit Form: itinerary.pl",
                 "infFile": "t5.inf",
-                "time": 1699632947700
+                "time": 1699648870521
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Submit Form: itinerary.pl",
-                "infFile": "t6.inf",
-                "time": 1699632947936
-            },
-            {
-                "stepId": "STEP6",
                 "stepName": "Url: SignOff Button",
-                "infFile": "t7.inf",
-                "time": 1699632948113
+                "infFile": "t6.inf",
+                "time": 1699648870687
             }
         ],
         "transactions": [
             {
                 "transactionName": "StartWebTours",
-                "rawStartTime": 1699632946383,
-                "rawEndTime": 1699632947130,
+                "rawStartTime": 1699648869636,
+                "rawEndTime": 1699648869962,
                 "thinkTime": 0.0,
-                "wastedTime": 0.1207730770111084
+                "wastedTime": 0.14420819282531739
             },
             {
                 "transactionName": "LogIn",
-                "rawStartTime": 1699632947147,
-                "rawEndTime": 1699632947460,
+                "rawStartTime": 1699648869979,
+                "rawEndTime": 1699648870132,
                 "thinkTime": 0.0,
-                "wastedTime": 0.006045341491699219
+                "wastedTime": 0.006148576736450195
             },
             {
-                "transactionName": "ViewTicket",
-                "rawStartTime": 1699632947476,
-                "rawEndTime": 1699632947715,
+                "transactionName": "ViewAllTicket",
+                "rawStartTime": 1699648870149,
+                "rawEndTime": 1699648870366,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0061321258544921879
+                "wastedTime": 0.0065915584564208988
             },
             {
                 "transactionName": "DeleteTicket",
-                "rawStartTime": 1699632947731,
-                "rawEndTime": 1699632947968,
+                "rawStartTime": 1699648870382,
+                "rawEndTime": 1699648870551,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004117727279663086
+                "wastedTime": 0.004065990447998047
             },
             {
                 "transactionName": "LogOut",
-                "rawStartTime": 1699632948001,
-                "rawEndTime": 1699632948128,
+                "rawStartTime": 1699648870581,
+                "rawEndTime": 1699648870704,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004422664642333984
+                "wastedTime": 0.004437446594238281
             },
             {
-                "transactionName": "UC4_ReservViewDelete",
-                "rawStartTime": 1699632946353,
-                "rawEndTime": 1699632948144,
+                "transactionName": "UC4_ReservDelete",
+                "rawStartTime": 1699648869609,
+                "rawEndTime": 1699648870719,
                 "thinkTime": 0.0,
-                "wastedTime": 0.14149093627929688
+                "wastedTime": 0.1654517650604248
             }
         ]
     }

@@ -4,134 +4,77 @@
         "steps": [
             {
                 "stepId": "STEP1",
-                "stepName": "Url: open_WebTours",
+                "stepName": "Url: WebTours",
                 "infFile": "t2.inf",
-                "time": 1699629661063
+                "time": 1699648803121
             },
             {
                 "stepId": "STEP2",
-                "stepName": "Custom Request: json",
+                "stepName": "Url: open_registration_page",
                 "infFile": "t3.inf",
-                "time": 1699629661289
+                "time": 1699648803284
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Url: open_registration_page",
+                "stepName": "Submit Data: registration",
                 "infFile": "t4.inf",
-                "time": 1699629661547
+                "time": 1699648803411
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Submit Data: registration",
+                "stepName": "Url: open_home_page",
                 "infFile": "t5.inf",
-                "time": 1699629661686
+                "time": 1699648803587
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Url: open_home_page",
-                "infFile": "t6.inf",
-                "time": 1699629661935
-            },
-            {
-                "stepId": "STEP6",
-                "stepName": "Url: Search Flights Button",
-                "infFile": "t7.inf",
-                "time": 1699629662196
-            },
-            {
-                "stepId": "STEP7",
-                "stepName": "Submit Data: insert_data_flight",
-                "infFile": "t8.inf",
-                "time": 1699629662554
-            },
-            {
-                "stepId": "STEP8",
-                "stepName": "Submit Data: select_flight",
-                "infFile": "t9.inf",
-                "time": 1699629662663
-            },
-            {
-                "stepId": "STEP9",
-                "stepName": "Submit Data: insert_payment_info",
-                "infFile": "t10.inf",
-                "time": 1699629662955
-            },
-            {
-                "stepId": "STEP10",
-                "stepName": "Url: Itinerary Button",
-                "infFile": "t11.inf",
-                "time": 1699629663293
-            },
-            {
-                "stepId": "STEP11",
                 "stepName": "Url: SignOff Button",
-                "infFile": "t12.inf",
-                "time": 1699629663534
+                "infFile": "t6.inf",
+                "time": 1699648803739
             }
         ],
         "transactions": [
             {
                 "transactionName": "StartWebTours",
-                "rawStartTime": 1699629660808,
-                "rawEndTime": 1699629661298,
+                "rawStartTime": 1699648802896,
+                "rawEndTime": 1699648803125,
                 "thinkTime": 0.0,
-                "wastedTime": 0.09605097770690918
+                "wastedTime": 0.08902883529663086
             },
             {
                 "transactionName": "ToRegistrationPage",
-                "rawStartTime": 1699629661315,
-                "rawEndTime": 1699629661551,
+                "rawStartTime": 1699648803141,
+                "rawEndTime": 1699648803295,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0055751800537109379
+                "wastedTime": 0.004899740219116211
             },
             {
                 "transactionName": "Registration",
-                "rawStartTime": 1699629661568,
-                "rawEndTime": 1699629661691,
+                "rawStartTime": 1699648803310,
+                "rawEndTime": 1699648803417,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004046440124511719
+                "wastedTime": 0.004236698150634766
             },
             {
                 "transactionName": "LogIn",
-                "rawStartTime": 1699629661707,
-                "rawEndTime": 1699629661950,
+                "rawStartTime": 1699648803432,
+                "rawEndTime": 1699648803600,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0059604644775390629
-            },
-            {
-                "transactionName": "ToFlihgtsPage",
-                "rawStartTime": 1699629661965,
-                "rawEndTime": 1699629662212,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0056498050689697269
-            },
-            {
-                "transactionName": "ReservTicket",
-                "rawStartTime": 1699629662242,
-                "rawEndTime": 1699629662983,
-                "thinkTime": 0.0,
-                "wastedTime": 0.012647151947021485
-            },
-            {
-                "transactionName": "ViewTicket",
-                "rawStartTime": 1699629662999,
-                "rawEndTime": 1699629663307,
-                "thinkTime": 0.0,
-                "wastedTime": 0.006006717681884766
+                "wastedTime": 0.005830526351928711
             },
             {
                 "transactionName": "LogOut",
-                "rawStartTime": 1699629663322,
-                "rawEndTime": 1699629663538,
+                "rawStartTime": 1699648803616,
+                "rawEndTime": 1699648803755,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004762172698974609
+                "wastedTime": 0.00430750846862793
             },
             {
-                "transactionName": "UC2_RegistrationReservAddView",
-                "rawStartTime": 1699629660036,
-                "rawEndTime": 1699629663553,
+                "transactionName": "UC2_Registration",
+                "rawStartTime": 1699648802280,
+                "rawEndTime": 1699648803770,
                 "thinkTime": 0.0,
-                "wastedTime": 0.14069890975952149
+                "wastedTime": 0.10830330848693848
             }
         ]
     }

@@ -1,4 +1,0 @@
-"firstName=Ivan&lastName=Lulina&address1=Krasnosormovskaya&address2=Moskow&pass1=Ivan+Lulina&pa"
-"ss2=Denis+Montana&creditCard=3333333333&expDate=123&oldCCOption=&numPassengers=2&seatType=Coac"
-"h&seatPref=Aisle&outboundFlight=732%3B165%3B11%2F11%2F2023&advanceDiscount=0&returnFlight=&JSF"
-"ormSubmit=off&buyFlights.x=64&buyFlights.y=9&.cgifields=saveCC"

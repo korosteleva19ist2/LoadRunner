@@ -39,6 +39,7 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC5_ReservView.c.pickle" Filter="1" />
     <FileEntry Name="UC5_ReservView.ci" Filter="1" />
+    <FileEntry Name="UC5_ReservView.prm.bak" Filter="1" />
     <FileEntry Name="UC5_ReservViewDeleteAdd.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
