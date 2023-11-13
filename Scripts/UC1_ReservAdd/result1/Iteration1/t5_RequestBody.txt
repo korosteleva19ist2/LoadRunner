@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Sydney&departDate=11%2F11%2F2023&arrive=Paris&returnDate=11%2F12%2F20"
-"23&numPassengers=%7BnumPassengerRand%7D&seatPref=Window&seatType=Business&findFlights.x=77&fin"
-"dFlights.y=6&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

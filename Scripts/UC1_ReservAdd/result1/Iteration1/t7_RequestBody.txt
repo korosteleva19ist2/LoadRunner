@@ -1,4 +1,2 @@
-"firstName=Timur&lastName=Gover&address1=Tutnaya&address2=Moskow&pass1=Timur+Gover&pass2=Denis+"
-"jojo&pass3=Jojo+jojo&creditCard=777777777&expDate=123&oldCCOption=&numPassengers=3&seatType=Bu"
-"siness&seatPref=Window&outboundFlight=842%3B1958%3B11%2F11%2F2023&advanceDiscount=0&returnFlig"
-"ht=&JSFormSubmit=off&buyFlights.x=64&buyFlights.y=9&.cgifields=saveCC"
+"outboundFlight=803%3B1215%3B11%2F14%2F2023&numPassengers=%7BnumPassengerRand%7D&advanceDiscoun"
+"t=0&seatType=First&seatPref=Window&reserveFlights.x=50&reserveFlights.y=11"

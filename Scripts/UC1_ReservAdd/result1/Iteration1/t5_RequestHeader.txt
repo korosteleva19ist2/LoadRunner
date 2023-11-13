@@ -1,12 +1,16 @@
-POST /cgi-bin/reservations.pl HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Sec-Fetch-Site: same-origin
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
 Accept-Encoding: gzip, deflate, br
 Accept-Language: ru-RU,ru;q=0.9
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1699648640; MTUserInfo=firstName&timur&address2&moscow&username&timur&hash&82&lastName&gover%0A&address1&&creditCard&&expDate&%0A
-Content-Length: 261
+Cookie: MSO=SID&1699879131; MTUserInfo=firstName&name1&address2&Place1&username&User1&hash&113&lastName&lastName1%0A&address1&Place1&creditCard&&expDate&%0A
 

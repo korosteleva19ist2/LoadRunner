@@ -6,75 +6,81 @@
                 "stepId": "STEP1",
                 "stepName": "Url: WebTours",
                 "infFile": "t2.inf",
-                "time": 1699648803121
+                "time": 1699879487129
             },
             {
                 "stepId": "STEP2",
-                "stepName": "Url: open_registration_page",
+                "stepName": "Custom Request: json",
                 "infFile": "t3.inf",
-                "time": 1699648803284
+                "time": 1699879487404
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Submit Data: registration",
+                "stepName": "Url: open_registration_page",
                 "infFile": "t4.inf",
-                "time": 1699648803411
+                "time": 1699879487688
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: open_home_page",
+                "stepName": "Submit Data: registration",
                 "infFile": "t5.inf",
-                "time": 1699648803587
+                "time": 1699879487855
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Url: SignOff Button",
+                "stepName": "Url: open_home_page",
                 "infFile": "t6.inf",
-                "time": 1699648803739
+                "time": 1699879488101
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t7.inf",
+                "time": 1699879488298
             }
         ],
         "transactions": [
             {
                 "transactionName": "StartWebTours",
-                "rawStartTime": 1699648802896,
-                "rawEndTime": 1699648803125,
+                "rawStartTime": 1699879486881,
+                "rawEndTime": 1699879487405,
                 "thinkTime": 0.0,
-                "wastedTime": 0.08902883529663086
+                "wastedTime": 0.131239652633667
             },
             {
                 "transactionName": "ToRegistrationPage",
-                "rawStartTime": 1699648803141,
-                "rawEndTime": 1699648803295,
+                "rawStartTime": 1699879487422,
+                "rawEndTime": 1699879487704,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004899740219116211
+                "wastedTime": 0.005630970001220703
             },
             {
                 "transactionName": "Registration",
-                "rawStartTime": 1699648803310,
-                "rawEndTime": 1699648803417,
+                "rawStartTime": 1699879487719,
+                "rawEndTime": 1699879487861,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004236698150634766
+                "wastedTime": 0.004056453704833984
             },
             {
                 "transactionName": "LogIn",
-                "rawStartTime": 1699648803432,
-                "rawEndTime": 1699648803600,
+                "rawStartTime": 1699879487877,
+                "rawEndTime": 1699879488115,
                 "thinkTime": 0.0,
-                "wastedTime": 0.005830526351928711
+                "wastedTime": 0.006608486175537109
             },
             {
                 "transactionName": "LogOut",
-                "rawStartTime": 1699648803616,
-                "rawEndTime": 1699648803755,
+                "rawStartTime": 1699879488131,
+                "rawEndTime": 1699879488307,
                 "thinkTime": 0.0,
-                "wastedTime": 0.00430750846862793
+                "wastedTime": 0.004393577575683594
             },
             {
                 "transactionName": "UC2_Registration",
-                "rawStartTime": 1699648802280,
-                "rawEndTime": 1699648803770,
+                "rawStartTime": 1699879486078,
+                "rawEndTime": 1699879488323,
                 "thinkTime": 0.0,
-                "wastedTime": 0.10830330848693848
+                "wastedTime": 0.15192914009094239
             }
         ]
     }
